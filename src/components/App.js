@@ -46,7 +46,7 @@ function resetFun()
 
             <input type='text' data-testid="input2" placeholder="Enter second name" name="name2"
             onChange={(e)=> setLname(e.target.value)} />
-            
+
             <button data-testid="calculate_relationship"
             onClick={findRelation}>calculate Relationship Future</button>
 
@@ -62,3 +62,4 @@ function resetFun()
 
 
 export default App;
+
